@@ -93,7 +93,7 @@ h2 {
 .cover-container {
   height: 30em;
   justify-content: center;
-  background-image: url(../images/cloudy_background.png);
+  background-image: url(images/cloudy_background.png);
   background-size: cover;
 }
 
