@@ -1,0 +1,28 @@
+@font-face {
+  /*
+  * font credit: vistor.txt
+  */
+  font-family: 'Visitor';
+  src: url('fonts/Visitor.woff2') format('woff2'),
+      url('fonts/Visitor.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.bg-gray {
+  background-color: rgb(73, 73, 73);
+}
+
+/*@font-face {
+  
+  font credit: Smoking Drum (http://www.smokingdrum.com.)
+  
+  font-family: 'Bulky Pixels';
+  src: url('fonts/BulkyPixels.woff2') format('woff2'),
+      url('fonts/BulkyPixels.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*/
