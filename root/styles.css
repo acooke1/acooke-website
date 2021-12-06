@@ -3,11 +3,16 @@
   * font credit: vistor.txt
   */
   font-family: 'Visitor';
-  src: url('fonts/Visitor.woff2') format('woff2'),
-      url('fonts/Visitor.woff') format('woff');
+  src: url('../fonts/Visitor.woff2') format('woff2'),
+      url('../fonts/Visitor.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+:root {
+  --off-white: rgb(235, 235, 235);
+  --dark-grey: rgb(100, 100, 100);
 }
 
 .bg-gray {
