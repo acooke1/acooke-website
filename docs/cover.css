@@ -8,9 +8,11 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
+
+
 .header {
   width: 100vw;
-  background-color: var(--dark-grey);
+  background-color: var(--dark-gray);
   opacity: 1;
 }
 
@@ -29,6 +31,13 @@
   border: 4px solid var(--off-white);
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -225px;
+  visibility: hidden;
+}
+
 a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
@@ -45,13 +54,47 @@ body {
   font-size: 20px;
 }
 
+.base-container {
+  display: block;
+  background-color: var(--dark-gray);
+  padding: 20px 0px;
+}
+
+.my-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+  padding: 0 40px;
+  height: 100%;
+}
+
+.col-left {
+  border-right: solid 5px rgb(50, 50, 50);
+}
+
+.col-right {
+  border-left: solid 5px rgb(50, 50, 50);
+}
+
+.col-skinny {
+  width: 40%;
+}
+
+.col-wide {
+  width: 60%;
+}
+
 /*
  * Borders
  */
 
 .border-bar {
   height: 4em;
-  background-color: black;
+  background-color: rgb(50, 50, 50);
   justify-content: center;
 }
 
@@ -104,14 +147,6 @@ h2 {
 
 h1 {
   font-size: 84px;
-}
-
-/*
- * About Me
- */
-
-.about-container {
-  background-color: rgb(73, 73, 73);
 }
 
 /*
