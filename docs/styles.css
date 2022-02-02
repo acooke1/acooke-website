@@ -1,33 +1,30 @@
 @font-face {
-  /*
-  * font credit: vistor.txt
-  */
-  font-family: 'Visitor';
-  src: url('fonts/Visitor.woff2') format('woff2'),
-      url('fonts/Visitor.woff') format('woff');
+  font-family: 'BB';
+  src: url('fonts/BB.ttf');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BB';
+  src: url('fonts/BB_bld.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'BB';
+  src: url('fonts/BB_ital.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BB';
+  src: url('fonts/BB_bldital.ttf');
+  font-weight: bold;
+  font-style: italic;
 }
 
 :root {
   --off-white: rgb(235, 235, 235);
   --dark-gray: rgb(80, 80, 80)
 }
-
-.bg-gray {
-  background-color: var(--dark-gray);
-}
-
-/*@font-face {
-  
-  font credit: Smoking Drum (http://www.smokingdrum.com.)
-  
-  font-family: 'Bulky Pixels';
-  src: url('../fonts/BulkyPixels.woff2') format('woff2'),
-      url('../fonts/BulkyPixels.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-*/
