@@ -5,8 +5,8 @@
     align-items: center;
     align-content: center;
     display: flex;
-    font-size: 20px;
-    color: var(--off-white) !important;
+    font-size: 25px;
+    color: white !important;
 }
 
 .fixed-top {
@@ -22,7 +22,7 @@
     min-width: 40px;
     margin-right: 20px;
     height: 40px;
-    background-color: var(--off-white);
+    background-color: white;
 }
 
 .my-nav-container {
@@ -43,7 +43,7 @@
 .my-navlink:after {
     transition: all ease-in-out .2s;
     margin-top: 2px;
-    background: none repeat scroll 0 0 var(--off-white);
+    background: none repeat scroll 0 0 white;
     content: "";
     display: block;
     height: 3px;
