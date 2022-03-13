@@ -7,62 +7,45 @@
     <meta name="author" content="Andrew Cooke">
     <title>Andrew Cooke</title>
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
     
-    <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
     <link href="my-nav.css" rel="stylesheet">
-    <link href="projects.css" rel="stylesheet">
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
   </head>
-  <body class="text-white">
-
-    <header class="mb-auto" id="top">
+  <body class="text-white" id="top">
+    <header>
       <div class="header fixed-top">
         <div class="my-navbar collapsible" id="navbar">
-            <div class="my-navbar-icon"></div>
+            <div class="my-navbar-icon icon-animation">
+              <a href="#top">
+                <img class="logo" src="images/logo.png">
+              </a>
+            </div>
             <div class="my-nav-container my-navlinks-container">
                 <div class="my-navelement">
-                    <div class="my-navlink">
+                    <div class="my-navlink u-line-anim">
                         <a href="#top">home</a>
                     </div>
                 </div>
                 <div class="my-navelement">
-                    <div class="my-navlink">
+                    <div class="my-navlink u-line-anim">
                         <a href="#about">about</a>
                     </div>
                 </div>
                 <div class="my-navelement">
-                    <div class="my-navlink">
+                    <div class="my-navlink u-line-anim">
                         <a href="#projects">projects</a>
                     </div>
                 </div>
                 <div class="my-navelement">
-                  <div class="my-navlink">
+                  <div class="my-navlink u-line-anim">
                       <a href="#contact">contact</a>
                   </div>
               </div>
             </div>
             <div class="my-nav-container my-navright-container">
                 <div class="nav-right">
-                    andrew cooke
+                      andrew cooke
                 </div>
             </div>
         </div>
@@ -71,29 +54,204 @@
     
     <main>
       <div class="cover-container flex-column" id="cover">
-        <div class="cover-text text-center">
-          <h1><u>Andrew Cooke</u></h1>
+        <div class="cover-text">
+          <p class="text1 no-margin">- Hi, my name is -</p>
+          <h1 class="text2 no-margin">Andrew Cooke</h1>
         </div>  
       </div>
 
       <div class="border-bar">
-        <h2>About Me</h2>
+        <h2>About</h2>
       </div>
 
       <div class="base-container about-container">
         <a class="anchor" id="about"></a>
-        <div class="about-slide my-row justify-content-center align-items-center">
-          <div class="about-me-image col col-skinny d-flex justify-content-center align-items-center">
-              <img src="images/pixel_portrait.png" id="pixel_portrait" class="img">
+        <div class="about-slide my-row justify-content-center">
+          <div class="col col-skinny justify-content-center align-items-center">
+              <div class="img-container">
+                <img src="images/pixel_portrait.png" id="pixel_portrait" class="img">
+              </div>
+              <div class="img-info">
+                <h2 class="img-header"><b>Me!</b></h2>
+              </div>
           </div>
           <div class="col col-wide col-right">
-            <h2>Hi! My name is Andrew Cooke.</h2>
             <p class="lead">
-              I am an undergrad at Brown University studying computer science. My concentration focuses on 
-              software engineering, machine learning/AI, and game development. I am part of the Brown Men's Crew 
-              Team and have competed at the Head of the Charles and the IRA National Championship.
+              I am an 4th year undergrad at Brown University concentrating in
+              computer science. I have taken a special interest in software
+              engineering and game development! I love to work on personal
+              projects and improve upon those that I have completed for classes.
+              Over the summer of 2020 I was able to learn more about the
+              software engineering process completing testing for Onset
+              Computing. At Brown I am part of the Men's Crew Team and have
+              competed at the Head of the Charles and the IRA National
+              Championship!
               <br><br>
-              In my free time I love to draw, learn guitar and piano, work on graphic design, write, and go for long walks!
+              I spend much of my free time drawing or doing graphic design,
+              learning new skills like guitar and piano, or going for long walks
+              with friends or with my dog!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-bar">
+        <h2>Experience</h2>
+      </div>
+
+      <div class="base-container experience-container">
+
+        <div class="project-slide my-row justify-content-center">
+          <div class="col col-skinny justify-content-center align-items-center sticky">
+            <div class="img-container">
+              <img src="images/onset_computing.png" class="img">
+            </div>
+            <div class="img-info">
+              <h2 class="img-header"><b>Onset Computer Corp.</b></h2>
+              <h3>Software Engineering Intern</h3>
+            </div>
+          </div>
+          <div class="col col-wide col-right col-sep">
+            <p class="lead">
+              Onset's goal is to provide a means of measuring, storing, and
+              managing environmental data through the use of loggers and
+              monitors. These devices are used to collect information about the
+              surrounding environment including but not limited to: water
+              temperature and salinity, wind speeds, soil composition and
+              humidity. They are often used in renewable energy systems or in
+              agriculture and oceanic research. The loggers drastically simplify
+              the data collection process by sending data directly to a data
+              warehouse that Onset manages. Onset manufactures the montiors,
+              loggers, and other devices needed, as well as writes the
+              supporting software code.
+              <br><br>
+              I held a Software Engineering internship at Onset during the
+              summer of 2021, working to enhance their software testing
+              capabilities. Onset hosts several data warehouses; the largest one
+              reserved for customers. In order to test their software and data
+              load maximums, one of these such warehouses was dedicated to
+              testing. Testing is an extremely important part of software
+              engineering, especially when serving a large number of customers.
+              I was part of a small team which was tasked with implementing a
+              number of different programs which would test the load that the
+              redshift servers were able to operate under. More specifically, I
+              used SQL queries to dynamically gather data from the customer
+              database on the number and type of each device that was active. I
+              was then tasked to emulate each of these devices, and provide user
+              commands so that the number and type of devices could be changed
+              for different testing needs.
+              <br><br>
+              This software was implemented in Java, one of the languages I am
+              most familiar with. As the only summer intern, and under the
+              restrictions of Covid-19, I spent time familiarizing myself with
+              agile software development and setting up a work laptop which
+              could access and pull data from Onset's data warehouses.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-slide my-row justify-content-center">
+          <div class="col col-skinny justify-content-center align-items-center sticky">
+            <div class="img-container">
+              <img src="images/st_andrews.png" class="img">
+            </div>
+            <div class="img-info">
+              <h2 class="img-header"><b>St. Andrew's School</b></h2>
+              <h3>Camp Director and Lead</h3>
+            </div>
+          </div>
+          <div class="col col-wide col-right">
+            <p class="lead">
+              St. Andrew's School is a private boarding school located in
+              Barrington, Rhode Island. During the summer months, the school
+              hosts a handfull of summer camps for any kids between ages 8-15
+              who live nearby. These camps range from basketball and rock
+              climbing adventures to lego building or acting out a play over the
+              course of a week. I was offered a position as a camp advisor after
+              my sophomore year of high school, helping with engineering,
+              robotics, and 3D design camps over the course of three weeks. By
+              my senior year, I had been given full control over the camps.
+              <br><br>
+              I helped to implement a curriculum using Arduinos and breadboards
+              to teach the basics of computer science and circuitry. Though a
+              lead to coding was very difficult, we had groups that created a
+              version of hangman using the LCD screen, or a Mario Kart timer
+              using LED's. We would also spend time with more mechanical and
+              simpler projects, such as egg drops and cars, aluminum foil boats,
+              spaghetti towers, and paper airplane competitions!
+              <br><br>
+              For the robotics section of the camp, we would work with LEGO
+              Mindstorms or Tetrix robots. The campers would start building from
+              instructions, to learn how the different parts and pieces
+              interact. From there, we would design different events for them to
+              build robots to compete in. These events included sumo-bots, an
+              obstacle course, drag racing, and tug-of-war. Oftentimes the
+              groups would take inspiration from the BattleBots television
+              series, adding claws or plows to their robots!
+              <br><br>
+              The design camp was often my favorite week of camp to lead. I
+              would show the group the basics of 3D printing and how printers
+              operate, giving them a live demo with my home-built 3D printer! We
+              would reserach the extent to which 3D printers could be used (they
+              are used to print parts for Spacecraft!) before sending them off
+              to use a simple CAD software to design their own creations!
+              Whether it was armies of tiny action figures, dream sports cars,
+              or huge mansions, we would use the 3D printers in the classroom to
+              print as many of their creations as possible before the end of the
+              camp.
+              <br><br>
+              During my most recently worked camp, I helped to mentor a few
+              other high school and college students through the three weeks of
+              camp, making sure that that camp will continue to operate in
+              upcoming years!
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="border-bar">
+        <h2>Athletics</h2>
+      </div>
+
+      <div class="base-container experience-container">
+        <div class="project-slide my-row justify-content-center">
+          <div class="col col-skinny justify-content-center align-items-center sticky">
+            <div class="img-container">
+              <img src="images/bmc.png" class="img">
+            </div>
+            <div class="img-info">
+              <h2 class="img-header"><b>Brown University</b></h2>
+              <h3>Men's Varsity Crew Team</h3>
+            </div>
+          </div>
+          <div class="col col-wide col-right">
+            <p class="lead">
+              I made a huge commitment during my first week at Brown: to walk on
+              to the Men's Crew Team. I hadn't been fast enough in high school
+              to be recruited, and as a Divison I, nationally ranked team,
+              walking on meant that I could expect to spend more than 20 hours a
+              week practicing alongside some of the fastest recruits in the
+              world. 
+              <br><br>
+              Needless to say, rising to meet the standard of the team was much
+              easier said than done. I struggled to stay motivated through the
+              physical and mental stress caused by practices and racing.
+              Internally I debated whether or not I would stay on the team the
+              following year. This debate was settled at the culmination of my
+              Freshman year, when the team competed at the IRA National
+              Chamiponshp in May, placing 5th in the country. 
+              <br><br>
+              Though the team was not able to compete during the 2019-2020
+              season due to Covid-19, we entered the spring of 2021 at full
+              speed. 
+              <br><br>
+              After the selection process, I completed the season by racing as
+              part of the second varsity crew at the IRAs, claiming 7th as a
+              boat and 5th overall.
+              <br><br>
+              At the Head of the Charles Regatta in fall 2021, I took home a
+              Gold medal in the Club Eights event. 
             </p>
           </div>
         </div>
@@ -105,42 +263,163 @@
 
       <div class="base-container projects-container">
         <a class="anchor" id="projects"></a>
-        <div class="game-engine project-slide my-row justify-content-center align-items-center">
-          <div class="col col-wide col-left">
-            <h2>2D Game Engine</h2>
-            <p class="lead">
-              Over the course of one semester, I designed and implemented the architecture for a 2D game engine. It's
-              framework is made up of user interface elements, game objects, and components. It supports collisions,
-              configurable physics, AI scriptings, animations, and much more!
-              <br><br>
-              I have used my engine to design several 2D games including a platformer and procedurally generated dungeon
-              crawler.
-            </p>
+        <div class="game-engine project-slide my-row justify-content-center">
+          <div class="col col-skinny justify-content-center align-items-center sticky">
+            <div class="img-container">
+              <img src="images/game_engine.png" class="img">
+            </div>
+            <div class="img-info">
+              <h2 class="img-header"><b>2D/3D Game Engine</b></h2>
+              <h3>Java and C++</h3>
+            </div>
           </div>
-          <div class="game-engine-image col col-skinny d-flex justify-content-center align-items-center">
-            <img src="images/game_engine.png" class="img">
+          <div class="col col-wide col-right col-sep">
+            <p class="lead">
+              Indie games have always drawn my attention. The idea of building a
+              video game from the ground up captivates me. So many hobbies and
+              skills that I love are used in the design process. 
+              <br><br>
+              Implementing the engine and game code in a new way with new
+              mechanics...
+              <br><br>
+              Building a fictional world and a mysterious story, complete with
+              dialogue...
+              <br><br>
+              Drawing this world and its characters and bringing them to life
+              with graphic design... 
+              <br><br>
+              Writing music and audio themes for each biome and character... 
+              <br><br>
+              Two of my favorite games -- Stardew Valley and Hollow Knight --
+              inspired me to begin this process myself by first implementing my
+              own 2D game engine. It is written in Java, and followed the
+              standard modern architecture for game engines using game object and
+              component based systems. It supports collisions, configurable
+              physics, animation, AI scripting, and much more!
+              <br><br>
+              I have taken this knowledge a step further and begun the
+              implementation of a 3D game engine. Already complexities arise in
+              collision detection and physics calculations. This new engine is
+              built in C++.
+            </p>
           </div>
         </div>
 
-        <div class="chess-recognition project-slide my-row">
-          <div class="chess-recognition-image col col-skinny d-flex justify-content-center align-items-center">
-            <img src="images/chess-image.png" class="img">
+        <div class="chess-recognition project-slide my-row justify-content-center">
+          <div class="col col-skinny justify-content-center align-items-center sticky">
+            <div class="img-container">
+              <img src="images/chess-image.png" class="img">
+            </div>
+            <div class="img-info">
+              <h2 class="img-header"><b>Computer Vision</b></h2>
+              <h3>Chess Board Recognition</h3>
+            </div>
+          </div>
+          <div class="col col-wide col-right col-sep">
+            <p class="lead">
+              Chess has always fascinated me. The number of possible positions is 
+              near uncountable and has even been given a name - Shannon's number. 
+              After taking a computer vision course, I knew exactly how to apply 
+              my newfound knowledge; and perhaps win a few chess games by the end.
+              <br><br>
+              And so, I designed a program which uses a convolutional neural
+              network to convert a given image into a digital board position.
+              The network trained on an online dataset of top-down chess boards.
+              Each image was divided up into 64 different inputs, found by using
+              a line detection algorithm to split the board up into it's squared
+              in order to run the model on a single piece at a time. The outputs
+              were then stitched back together in order to create a final board
+              output. 
+              <br><br>
+              Though I did not complete an AI that played well enough to present
+              a challenge to Stockfish, I used an online library which I could
+              pass the board state into to produce the best move given the input
+              position. I knew a few victories were in my future!
+            </p>
+            <div class="bar"></div>
+          </div>
+        </div>
+
+        <div class="project-slide my-row justify-content-center">
+          <div class="col col-skinny justify-content-center align-items-center sticky">
+            <div class="img-container">
+              <img src="images/prusa-i3.png" class="img">
+            </div>
+            <div class="img-info">
+              <h2 class="img-header"><b>Prusa i3</b></h2>
+              <h3>My home-built 3D printer</h3>
+            </div>
           </div>
           <div class="col col-wide col-right">
-            <h2>Chess Board Recognition</h2>
             <p class="lead">
-              Implemented a computer vision program using deep learning to recognize the position of a chess board from
-              a given image and convert it to a textual representation. 
+              I used to run my hands through my three LEGO bins, hunting for the
+              piece I needed to complete my creation. In my frustration I
+              dreamed of being able to produce just the piece I needed, in the
+              color I wanted, in the time that I felt I didn't want to waste.
+              When I heard about 3D printers, I was mystified at the prospect
+              that my dream might finally come true.
+              <br><br>
+              When I was finally given the chance in high school, I jumped.
+              Along with two of my friends, and the help of a kind and wonderful
+              mentor, I began learning about 3D printing and the engineering
+              process. We worked as a team to complete a 3D printer for our
+              mentor, built entirely from scratch. Once satisfied with our
+              handiwork, we used the now functional printer to fashion parts for
+              our own 3D printers.
+              <br><br>
+              After a few months of "brute force and ignorance", as our mentor
+              called it, each of us had finally completed our own working Prusa
+              i3 printer from scratch! Using my SolidWorks knowledge, I was not 
+              only able to print the LEGO pieces I desired, but also design my own
+              LEGO pieces that no one had ever seen before!
             </p>
           </div>
         </div>
+
+        
       </div>
-      
     </main>
 
-    <footer class="container bg-gray">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <div class="border-bar">
+      <h2>Contact</h2>
+    </div>
+
+    <div class="base-container" id="contact">
+      <div class="contact-slide">
+        <div class="contact-info">
+          <div class="contact-img">
+            <img src="images/name_icon.png">
+          </div>
+          <div>
+            <h3 class="dark-text">Andrew Cooke</h3>
+            4th year undergrad at Brown University
+          </div>
+        </div>
+        <div class="contact-info">
+          <div class="contact-img">
+            <img src="images/email_icon.png">
+          </div>
+          <h3>Email me at: <a class="contact-link" href="mailto:andrew_cooke@brown.edu">andrew_cooke@brown.edu</a></h3>
+        </div>
+        <div class="contact-info">
+          <div class="contact-img">
+            <img src="images/resume_icon.png">
+          </div>
+          <h3>Check out my 
+            <a class="contact-link" target="_blank" rel="noreferrer noopener" href="andrew_cooke_resume.pdf" download>
+              resume
+            </a>
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <footer class="d-flex my-footer align-items-center justify-content-center">
+      <div class="d-flex justify-content-center align-items-center">
+        <p class="footer-text">&copy; 2021-2022 Andrew Cooke</p>
+        <a class="footer-text rl-border footer-email" href="mailto:andrew_cooke@brown.edu">andrew_cooke@brown.edu</a>
+        <p class="footer-text">Brown University, Providence, RI</p>
+      </div>
     </footer>
 
   </body>

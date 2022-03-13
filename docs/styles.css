@@ -25,6 +25,13 @@
 }
 
 :root {
+  --primary: rgb(7, 45, 84);
+  --opaque-primary: rgb(7, 45, 84, .6);
+  --secondary: rgb(252, 186, 3);
   --off-white: rgb(235, 235, 235);
   --dark-gray: rgb(80, 80, 80);
+  --darker-gray: rgb(40, 40, 40);
+  --background: rgb(234, 246, 255);
+  --background-yellow: rgb(255, 250, 228);
+  --dark-text: rgb(7, 45, 84);
 }
